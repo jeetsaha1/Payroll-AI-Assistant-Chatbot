@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+#chatbox {
+  border: 1px solid #ccc;
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+p {
+  margin: 5px 0;
+}
+.user, .bot {
+    margin: 8px 0;
+    padding: 12px 15px;
+    border-radius: 20px;
+    max-width: 75%;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.user {
+    background: #4caf50;
+    color: white;
+    align-self: flex-end;
+}
+
+.bot {
+    background: #ececec;
+    color: #333;
+    align-self: flex-start;
+}
+.user, .bot {
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.avatar {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 8px;
+    vertical-align: middle;
+}

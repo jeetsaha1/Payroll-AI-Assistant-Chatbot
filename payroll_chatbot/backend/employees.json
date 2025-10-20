@@ -1,0 +1,8 @@
+{
+  "employees": [
+    {"emp_id": 1, "name": "Jeet", "password": "1234"}
+  ],
+  "payroll": [
+    {"emp_id": 1, "basic": 30000, "hra": 10000, "bonus": 5000, "net_salary": 45000}
+  ]
+}
